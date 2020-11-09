@@ -1,0 +1,33 @@
+{
+	"name": "@test/action-list",
+	"version": "0.0.1",
+	"private": false,
+	"description": "",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"@test/action-list"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+	"module": "src/index.js",
+	"dependencies": {
+		"@servicenow/cli-archetype": "17.0.3",
+		"@servicenow/cli-component-archetype": "17.0.3",
+		"@servicenow/library-translate": "orlando",
+		"@servicenow/now-modal": "^17.0.1",
+		"@servicenow/now-template-card": "^17.0.1",
+		"@servicenow/sass-kit": "orlando",
+		"@servicenow/sass-theme": "orlando",
+		"@servicenow/ui-core": "orlando",
+		"@servicenow/ui-effect-http": "^17.0.1",
+		"@servicenow/ui-renderer-snabbdom": "orlando"
+	},
+	"devDependencies": {
+		"@servicenow/cli-archetype-dev": "17.0.3",
+		"@servicenow/cli-component-archetype-dev": "17.0.3"
+	}
+}

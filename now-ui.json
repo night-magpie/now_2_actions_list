@@ -1,0 +1,23 @@
+{
+	"components": {
+	    "x-550126-action-list": {
+	        "innerComponents": [
+				"now-button",
+				"now-heading",
+				"now-loader",
+				"now-card",
+				"now-template-card",
+				"now-template-card-attachment",
+				"now-template-card-omnichannel",
+				"now-modal"
+			],
+			"uiBuilder": {
+				"associatedTypes": ["global.core"],
+				"label": "2 Action List",
+				"icon": "document-outline",
+				"description": "2 Actions incident list testing"
+			}
+	    }
+	},
+	"scopeName": "x_550126_test_ac_0"
+}
